@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WeatherAppPHFinal" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.WeatherAppPHFinal" parent="Base.Theme.WeatherAppPHFinal" />
+
+    <style name="CustomAlertDialog" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:background">#2E2E2E</item> <!-- Dark background color -->
+        <item name="android:textColor">@android:color/white</item> <!-- White text color -->
+        <item name="android:windowTitleStyle">@style/CustomTitle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/CustomButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="CustomTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">#FFD700</item> <!-- Gold title text color -->
+    </style>
+
+    <style name="CustomButton" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">#FFD700</item> <!-- Gold button text color -->
+    </style>
+    <!-- NoActionBar variant -->
+    <style name="Theme.WeatherAppPHFinal.NoActionBar" parent="Theme.WeatherAppPHFinal">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

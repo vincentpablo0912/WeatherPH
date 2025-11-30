@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Weather PH</string>
+    <string name="title_weather_app">Weather PH</string>
+    <string name="enter_ph_city">Enter Philippine city...</string>
+    <string name="search">Search</string>
+    <string name="manila">Manila</string>
+    <string name="tuesday_nov_25_2025">Tuesday, Nov 25, 2025</string>
+    <string name="weather_icon">☀️</string>
+    <string name="temp_32_c">32°C</string>
+    <string name="clear_and_sunny">Clear and sunny</string>
+    <string name="clear_sky">Clear sky</string>
+    <string name="weather_details">Weather Details</string>
+    <string name="humidity">💧 Humidity</string>
+    <string name="humidity_65">65%</string>
+    <string name="wind_speed">🌬️ Wind Speed</string>
+    <string name="wind_speed_3_5">3.5 m/s</string>
+    <string name="precipitation">🌧️ Precipitation</string>
+    <string name="pressure">💨 Pressure</string>
+    <string name="seven_day_forecast">7-Day Forecast</string>
+    <string name="welcome">Hello!</string>
+    <string name="what_should_we_call_you">What should we call you?</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="continue_button">Continue</string>
+    <string name="exit_confirmation">Exit Confirmation</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="refresh">Refresh</string>
+
+</resources>
