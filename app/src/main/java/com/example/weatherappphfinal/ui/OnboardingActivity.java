@@ -60,6 +60,7 @@ public class OnboardingActivity extends AppCompatActivity {
 
                 // Navigate to the main screen.
                 Intent intent = new Intent(OnboardingActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
                 finish(); // Finish this activity so the user cannot navigate back to it.
             }

@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity implements WeatherListener {
             new AlertDialog.Builder(this, R.style.CustomAlertDialog)
                     .setTitle(R.string.exit_confirmation)
                     .setMessage(R.string.exit_message)
-                    .setPositiveButton(R.string.yes, (dialog, which) -> finish())
+                    .setPositiveButton(R.string.yes, (dialog, which) -> finishAffinity())
                     .setNegativeButton(R.string.no, null)
                     .show();
         });
