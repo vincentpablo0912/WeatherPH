@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.weatherappphfinal.R;
 
 /**
- * The initial screen shown to the user. It now serves as a simple entry point to the main app.
+ * The initial screen shown to the user. It now serves as a simple entry point to the main app..
  */
 public class SplashActivity extends AppCompatActivity {
 
